@@ -8,6 +8,6 @@ replbot = zulip.Client(email="replbot-bot@students.hackerschool.com",
 
 replbot.send_message({
     "type": "private",
-    "to": "jeffowler@gmail.com",
-    "content": "I have a voice, and yet no ear!"
+    "to": "robsoko315@gmail.com",
+    "content": "so i guess it is as simple as having a running instance of your script somewhere... since its not using a restful http thing... you dont have to set up any server handling"
 })
